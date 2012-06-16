@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="View" parent="@android:style/Theme.Light">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="AlertsStatus" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#000000</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="AlertsList">
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+
+    <style name="TextLayout">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <style name="ViewText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="ListText" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="ViewLinkHeader" parent="@android:style/TextAppearance.Large">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/View"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/TextLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/ViewText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="@string/check_updates_every" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/check_updates_every" />
+    </LinearLayout>
+
+</LinearLayout>
